@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catálogo de Miel</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+}
+
+/* HEADER */
+header {
+    background: #2c2c2c;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+/* SECCIÓN PRINCIPAL */
+.container {
+    padding: 40px;
+    text-align: center;
+}
+
+.container h2 {
+    margin-bottom: 30px;
+}
+
+/* GRID PRODUCTOS */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* TARJETAS */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 15px 0 5px;
+}
+
+.card p {
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #d4a017;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* FOOTER */
+footer {
+    background: #2c2c2c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Alma de Monte</h1>
+    <p>Catálogo de Miel Natural</p>
+</header>
+
+<section class="container">
+    <h2>Nuestros Productos</h2>
+
+    <div class="grid">
+
+        <!-- PRODUCTOS -->
+        <!-- Repite esto 10 veces -->
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Miel 1">
+            <h3>Miel 1</h3>
+            <p>Descripción breve de la miel</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Miel 2">
+            <h3>Miel 2</h3>
+            <p>Descripción breve de la miel</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Miel 3">
+            <h3>Miel 3</h3>
+            <p>Descripción breve de la miel</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Miel 4">
+            <h3>Miel 4</h3>
+            <p>Descripción breve de la miel</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Miel 5">
+            <h3>Miel 5</h3>
+            <p>Descripción breve de la miel</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Miel 6">
+            <h3>Miel 6</h3>
+            <p>Descripción breve de la miel</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Miel 7">
+            <h3>Miel 7</h3>
+            <p>Descripción breve de la miel</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Miel 8">
+            <h3>Miel 8</h3>
+            <p>Descripción breve de la miel</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Miel 9">
+            <h3>Miel 9</h3>
+            <p>Descripción breve de la miel</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Miel 10">
+            <h3>Miel 10</h3>
+            <p>Descripción breve de la miel</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Alma de Monte - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
